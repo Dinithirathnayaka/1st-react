@@ -12,7 +12,7 @@ function NameListItem(props) {
 
             <p>City: {props.city}</p>
             <p>Email: {props.email}</p>
-            <p>Birthday :{moment(props.birthday).format('DD-MM-YYYY')}</p>
+           
            
         </li>
     );
